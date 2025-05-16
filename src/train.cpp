@@ -3,6 +3,8 @@
 
 Train::Train() : countOp(0), first(nullptr) {}
 
+Train::Train() : countOp(0), first(nullptr) {}
+
 void Train::addCar(bool light) {
 	Car* temp = new Car;
 	temp->light = light;
