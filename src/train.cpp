@@ -38,7 +38,7 @@ int Train::getLength() {
       if (temp->light == 0) {
         return length;
       }
-      length=0;
+      length = 0;
     }
   }
 }
